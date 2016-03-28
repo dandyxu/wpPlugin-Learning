@@ -2,10 +2,10 @@
 /*
 Plugin Name: My copyright plugin
 Plugin URI: http://localhost/wpPlugin-Learning/wp-content/plugins/copyright_plugin
-Description: Created at 10th.March.2016 in Limerick
+Description: Created at 10th.March.2016 in Limerick Updated at 28th.March.2016
 Author: Dandy Xu
-Version: 1.0
-Author URI: http://www.techxu.com
+Version: 2.0
+Author URI: https://github.com/dandyxu
 License: GPL2
 
 Copyright (C) 2016  Dandy Xu (email : dandyjefferson@gmail.com)
@@ -30,6 +30,11 @@ global $wp_version;
 if ( !version_compare($wp_version, "4.4",">="))
 {
 	die("You need at least version 4.4 of WordPress to use the copyright plugin");
+}
+
+function add_copyright(){
+	$copyright_message = "&copy; * . date('Y') . * Dandy Xu, All Rights Reserved";
+	echo $copyright_message;
 }
 
 ?>
