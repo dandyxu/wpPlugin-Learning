@@ -16,7 +16,7 @@ function cwmp_add_content($content){
 	return $content;
 }
 
-add_filter('the_content', 'cwmp_add_content');
+//add_filter('the_content', 'cwmp_add_content');
 //remove_filter('the_content','cwmp_add_content');
 
 ?>

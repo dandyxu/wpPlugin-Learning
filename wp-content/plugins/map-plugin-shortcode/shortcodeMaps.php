@@ -12,4 +12,5 @@ function smp_map_it(){
 
 	$addr = "10, The Crescent, O'Connell Street, Limerick";
 }
+
 ?>
