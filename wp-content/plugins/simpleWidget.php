@@ -17,7 +17,7 @@ class simpleWidget extends WP_Widget {
 			'classname' => 'simple-widget',
 			'description' => 'Just a simple widget');
 
-		parent::WP_Widget('simple_widget', 'Simple Wdiget', $widget_options);
+		parent::WP_Widget('simple_widget', 'Simple Widget', $widget_options);
 	}
 
 	//Output user interface

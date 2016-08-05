@@ -20,20 +20,42 @@ function cc_comment(){
 
 add_action('comment_post','cc_comment');
 
+/**
+ * 5.1 Creating an admin interface
+ */
 function cccomm_option_page(){
+
+    if ( $_POST['cccomm_hidden'] == 'Y') {
+
+        update_option('cccomm_cc_email' , $_POST['cc_email']);
+        ?>
+        <div id="message" class="updated">Email was saved for CC Comments</div>
+        <?php
+    }
+
 	?>
 	<div class="wrap">
 		<?php screen_icon(); ?>
 		<h2>CC Comments Options</h2>
 		<p>Welcome to the CC Comments plugin. Here you can edit the email(s) to CC your comments to.</p>
+        <form action="" method="post" id="cc-comments-email-options-form">
+            <h3><label for="cc_email">Email to send CC to: </label>
+            <input type="text" id="cc_email" name="cc_email"
+            value="<?php echo esc_attr(get_option('cccomm_cc_email')); ?>" /></h3>
+            <p><input type="submit" name="submit" value="Save Email" /></p>
+
+            <input type="hidden" name="cccomm_hidden" value="Y" />
+        </form>
 	</div>
 	<?php
 }
 
+/**
+ * Register cccomm plugin menu
+ */
 function cccomm_plugin_menu(){
 	add_options_page('CC Comments Settings', 'CC Comments', 'manage_options', 'cc-comments-plugin', 'cccomm_option_page');
 }
-
 add_action('admin_menu', 'cccomm_plugin_menu');
 
 ?>
