@@ -20,32 +20,39 @@ function cc_comment(){
 
 add_action('comment_post','cc_comment');
 
+function cccomm_init(){
+    register_setting('cccomm_options', 'cccomm_cc_email');
+}
+
+add_action('admin_init', 'cccomm_init');
+
 /**
  * 5.1 Creating an admin interface
  */
 function cccomm_option_page(){
 
-    if ( check_admin_referer('cccomm_admin_options-update') ) {
+    //if ( check_admin_referer('cccomm_admin_options-update') ) {
 
-        update_option('cccomm_cc_email' , $_POST['cc_email']);
+        //update_option('cccomm_cc_email' , $_POST['cc_email']);
         ?>
-        <div id="message" class="updated">Email was saved for CC Comments</div>
+        <!--<div id="message" class="updated">Email was saved for CC Comments</div>-->
         <?php
-    }
+    //}
 
 	?>
 	<div class="wrap">
 		<?php screen_icon(); ?>
 		<h2>CC Comments Options</h2>
 		<p>Welcome to the CC Comments plugin. Here you can edit the email(s) to CC your comments to.</p>
-        <form action="" method="post" id="cc-comments-email-options-form">
-            <h3><label for="cc_email">Email to send CC to: </label>
-            <input type="text" id="cc_email" name="cc_email"
+        <form action="options.php" method="post" id="cc-comments-email-options-form">
+            <?php settings_fields('cccomm_options'); ?>
+            <h3><label for="cccomm_cc_email">Email to send CC to: </label>
+            <input type="text" id="cccomm_cc_email" name="cccomm_cc_email"
             value="<?php echo esc_attr(get_option('cccomm_cc_email')); ?>" /></h3>
             <p><input type="submit" name="submit" value="Save Email" /></p>
 
-            <?php wp_nonce_field('cccomm_admin_options-update'); ?>
-            
+             <!--wp_nonce_field('cccomm_admin_options-update');-->
+
         </form>
 	</div>
 	<?php
