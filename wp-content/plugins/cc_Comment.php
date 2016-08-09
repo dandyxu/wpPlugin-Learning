@@ -25,7 +25,7 @@ add_action('comment_post','cc_comment');
  */
 function cccomm_option_page(){
 
-    if ( $_POST['cccomm_hidden'] == 'Y') {
+    if ( check_admin_referer('cccomm_admin_options-update') ) {
 
         update_option('cccomm_cc_email' , $_POST['cc_email']);
         ?>
@@ -44,7 +44,8 @@ function cccomm_option_page(){
             value="<?php echo esc_attr(get_option('cccomm_cc_email')); ?>" /></h3>
             <p><input type="submit" name="submit" value="Save Email" /></p>
 
-            <input type="hidden" name="cccomm_hidden" value="Y" />
+            <?php wp_nonce_field('cccomm_admin_options-update'); ?>
+            
         </form>
 	</div>
 	<?php
