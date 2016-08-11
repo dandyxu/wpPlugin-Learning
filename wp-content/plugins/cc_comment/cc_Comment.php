@@ -26,44 +26,25 @@ function cccomm_init(){
 
 add_action('admin_init', 'cccomm_init');
 
-/**
- * 5.1 Creating an admin interface
- */
-function cccomm_option_page(){
+function cccomm_setting_field(){
+    ?>
+    <input type="text" name="cccomm_cc_email" id="cccomm_cc_email" value="<?php echo get_option('cccomm_cc_email'); ?>" />
+    <?php
+}
 
-    //if ( check_admin_referer('cccomm_admin_options-update') ) {
-
-        //update_option('cccomm_cc_email' , $_POST['cc_email']);
-        ?>
-        <!--<div id="message" class="updated">Email was saved for CC Comments</div>-->
-        <?php
-    //}
-
-	?>
-	<div class="wrap">
-		<?php screen_icon(); ?>
-		<h2>CC Comments Options</h2>
-		<p>Welcome to the CC Comments plugin. Here you can edit the email(s) to CC your comments to.</p>
-        <form action="options.php" method="post" id="cc-comments-email-options-form">
-            <?php settings_fields('cccomm_options'); ?>
-            <h3><label for="cccomm_cc_email">Email to send CC to: </label>
-            <input type="text" id="cccomm_cc_email" name="cccomm_cc_email"
-            value="<?php echo esc_attr(get_option('cccomm_cc_email')); ?>" /></h3>
-            <p><input type="submit" name="submit" value="Save Email" /></p>
-
-             <!--wp_nonce_field('cccomm_admin_options-update');-->
-
-        </form>
-	</div>
-	<?php
+function cccomm_setting_section(){
+    ?>
+    <p>Settings for the CC Comments plugin: </p>
+    <?php
 }
 
 /**
  * Register cccomm plugin menu
  */
 function cccomm_plugin_menu(){
-	//add_dashboard_page('CC Comments Settings', 'CC Comments', 'manage_options', 'cc-comments-plugin', 'cccomm_option_page');
-	add_menu_page('CC Comments', 'CC Comments', 'manage_options', 'cc-comments-plugin', 'cccomm_option_page', '/wpPlugin-Learning/wp-content/plugins/cc_comment/Circle_Logo_50x50l.png', 10);
+
+    add_settings_section('cccomm', 'CC Comments', 'cccomm_setting_section', 'general');
+    add_settings_field('cccomm_cc_email', 'CC Comments', 'cccomm_setting_field', 'general', 'cccomm');
 }
 add_action('admin_menu', 'cccomm_plugin_menu');
 
