@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a7dc54-5ba9-4e02-b98a-45090c5e7be5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/cc_comment/Circle_Logo_50x50l.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/cc_Comment.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cc_comment/cc_Comment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/simpleDBWidget/simple_db_widget.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wpPlugin-Learning.iws" />
@@ -53,20 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cc_Comment.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cc_Comment.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/cc_comment/cc_Comment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+            <state relative-caret-position="701">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circle_Logo_50x50l.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cc_comment/Circle_Logo_50x50l.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="simple_db_widget.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/simpleDBWidget/simple_db_widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding>
+                <element signature="e#10#292#0#PHP" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -81,6 +85,8 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/simpleWidget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/cc_Comment.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/cc_comment/cc_Comment.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/simple_db_widget.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/simpleDBWidget/simple_db_widget.php" />
       </list>
     </option>
   </component>
@@ -195,7 +201,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cc_comment" />
+              <option name="myItemId" value="simpleDBWidget" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,6 +221,7 @@
       <recent name="C:\wamp\www\wpPlugin-Learning\wp-content\plugins\cc_comment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\wpPlugin-Learning\wp-content\plugins\simpleDBWidget" />
       <recent name="C:\wamp\www\wpPlugin-Learning\wp-content\plugins\cc_comment" />
     </key>
   </component>
@@ -289,12 +296,12 @@
       <workItem from="1470662523604" duration="745000" />
       <workItem from="1470757527071" duration="1209000" />
       <workItem from="1470842172341" duration="628000" />
-      <workItem from="1470912875324" duration="1709000" />
+      <workItem from="1470912875324" duration="2333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16838000" />
+    <option name="totallyTimeSpent" value="17462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +313,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2906" height="1566" extended-state="6" />
+    <frame x="-13" y="-13" width="2906" height="1566" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -585,9 +592,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/cc_comment/cc_Comment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state relative-caret-position="701">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/simpleDBWidget/simple_db_widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="e#10#292#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
