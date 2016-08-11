@@ -62,7 +62,8 @@ function cccomm_option_page(){
  * Register cccomm plugin menu
  */
 function cccomm_plugin_menu(){
-	add_options_page('CC Comments Settings', 'CC Comments', 'manage_options', 'cc-comments-plugin', 'cccomm_option_page');
+	//add_dashboard_page('CC Comments Settings', 'CC Comments', 'manage_options', 'cc-comments-plugin', 'cccomm_option_page');
+	add_menu_page('CC Comments', 'CC Comments', 'manage_options', 'cc-comments-plugin', 'cccomm_option_page', '/wpPlugin-Learning/wp-content/plugins/cc_comment/Circle_Logo_50x50l.png', 10);
 }
 add_action('admin_menu', 'cccomm_plugin_menu');
 
