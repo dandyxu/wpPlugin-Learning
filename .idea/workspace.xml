@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a7dc54-5ba9-4e02-b98a-45090c5e7be5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/browser_detector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/browser_detector.php" afterPath="$PROJECT_DIR$/wp-content/plugins/browser_detector.php" />
     </list>
     <ignored path="wpPlugin-Learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,14 +77,14 @@
       <file leaf-file-name="browser_detector.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/browser_detector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="1404">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding>
                 <element signature="e#6#278#0#PHP" expanded="true" />
-                <marker date="1472233618705" expanded="true" signature="476:489" ph="CREATE TABLE... ${$table_name}" />
-                <marker date="1472233618705" expanded="true" signature="476:508" ph="CREATE TABLE... ${$table_name}" />
-                <marker date="1472233618705" expanded="true" signature="476:663" ph="CREATE TABLE... ${$table_name}" />
-                <marker date="1472233618705" expanded="true" signature="476:664" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472234082567" expanded="true" signature="476:489" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472234082567" expanded="true" signature="476:508" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472234082567" expanded="true" signature="476:663" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472234082567" expanded="true" signature="476:664" ph="CREATE TABLE... ${$table_name}" />
               </folding>
             </state>
           </provider>
@@ -324,12 +323,12 @@
       <workItem from="1471884072732" duration="606000" />
       <workItem from="1472041469354" duration="5197000" />
       <workItem from="1472231034217" duration="11000" />
-      <workItem from="1472231090462" duration="2605000" />
+      <workItem from="1472231090462" duration="3030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32454000" />
+    <option name="totallyTimeSpent" value="32879000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -771,14 +770,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/browser_detector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="1404">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
           <folding>
             <element signature="e#6#278#0#PHP" expanded="true" />
-            <marker date="1472233618705" expanded="true" signature="476:489" ph="CREATE TABLE... ${$table_name}" />
-            <marker date="1472233618705" expanded="true" signature="476:508" ph="CREATE TABLE... ${$table_name}" />
-            <marker date="1472233618705" expanded="true" signature="476:663" ph="CREATE TABLE... ${$table_name}" />
-            <marker date="1472233618705" expanded="true" signature="476:664" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472234082567" expanded="true" signature="476:489" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472234082567" expanded="true" signature="476:508" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472234082567" expanded="true" signature="476:663" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472234082567" expanded="true" signature="476:664" ph="CREATE TABLE... ${$table_name}" />
           </folding>
         </state>
       </provider>
