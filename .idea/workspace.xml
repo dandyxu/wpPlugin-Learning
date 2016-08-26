@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a7dc54-5ba9-4e02-b98a-45090c5e7be5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/browser_detector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/dbinfo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/dbinfo.php" />
     </list>
     <ignored path="wpPlugin-Learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbinfo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbinfo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/dbinfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="978">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="834">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#6#235#0#PHP" expanded="true" />
                 <marker date="1472233004590" expanded="true" signature="548:571" ph="SELECT ID FR... wp_users" />
@@ -60,6 +60,32 @@
                 <marker date="1472233004590" expanded="true" signature="982:1029" ph="SELECT * FRO... ${$wpdb-&gt;users}" />
                 <marker date="1472233004590" expanded="true" signature="1205:1218" ph="SELECT * FRO... " />
                 <marker date="1472233004590" expanded="true" signature="1205:1219" ph="SELECT * FRO... ${$wd}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simpleWidget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/simpleWidget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1872">
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="browser_detector.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/browser_detector.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#278#0#PHP" expanded="true" />
+                <marker date="1472233618705" expanded="true" signature="476:489" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472233618705" expanded="true" signature="476:508" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472233618705" expanded="true" signature="476:663" ph="CREATE TABLE... ${$table_name}" />
+                <marker date="1472233618705" expanded="true" signature="476:664" ph="CREATE TABLE... ${$table_name}" />
               </folding>
             </state>
           </provider>
@@ -80,6 +106,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/cc_comment/cc_comment.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/simple_db_widget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dbinfo.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/browser_detector.php" />
       </list>
     </option>
   </component>
@@ -297,12 +324,12 @@
       <workItem from="1471884072732" duration="606000" />
       <workItem from="1472041469354" duration="5197000" />
       <workItem from="1472231034217" duration="11000" />
-      <workItem from="1472231090462" duration="1956000" />
+      <workItem from="1472231090462" duration="2605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31805000" />
+    <option name="totallyTimeSpent" value="32454000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -698,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/simpleWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/cc_comment/cc_comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -722,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/dbinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="834">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#6#235#0#PHP" expanded="true" />
             <marker date="1472233004590" expanded="true" signature="548:571" ph="SELECT ID FR... wp_users" />
@@ -737,6 +757,28 @@
             <marker date="1472233004590" expanded="true" signature="982:1029" ph="SELECT * FRO... ${$wpdb-&gt;users}" />
             <marker date="1472233004590" expanded="true" signature="1205:1218" ph="SELECT * FRO... " />
             <marker date="1472233004590" expanded="true" signature="1205:1219" ph="SELECT * FRO... ${$wd}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/simpleWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/browser_detector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#278#0#PHP" expanded="true" />
+            <marker date="1472233618705" expanded="true" signature="476:489" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472233618705" expanded="true" signature="476:508" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472233618705" expanded="true" signature="476:663" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1472233618705" expanded="true" signature="476:664" ph="CREATE TABLE... ${$table_name}" />
           </folding>
         </state>
       </provider>
