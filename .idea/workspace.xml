@@ -93,10 +93,12 @@
       <file leaf-file-name="top_posts.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/top_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="260">
+              <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
               <folding>
                 <element signature="e#6#236#0#PHP" expanded="true" />
+                <marker date="1472395870798" expanded="true" signature="900:1132" ph="..." />
+                <marker date="1472395870798" expanded="true" signature="962:1054" ph="..." />
               </folding>
             </state>
           </provider>
@@ -337,12 +339,12 @@
       <workItem from="1472041469354" duration="5197000" />
       <workItem from="1472231034217" duration="11000" />
       <workItem from="1472231090462" duration="3428000" />
-      <workItem from="1472393855798" duration="1493000" />
+      <workItem from="1472393855798" duration="2061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34770000" />
+    <option name="totallyTimeSpent" value="35338000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -849,10 +851,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/top_posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="260">
+          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
           <folding>
             <element signature="e#6#236#0#PHP" expanded="true" />
+            <marker date="1472395870798" expanded="true" signature="900:1132" ph="..." />
+            <marker date="1472395870798" expanded="true" signature="962:1054" ph="..." />
           </folding>
         </state>
       </provider>

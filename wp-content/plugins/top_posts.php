@@ -12,13 +12,17 @@
 function top_posts_widget(){
 
     //create a new Class from WP_Query()
-    $top_posts_query = new WP_Query();
-    //use get_posts() method in Class WP_Query
-    $top_posts_query->get_posts();
+    $top_posts_query = new WP_Query(array('posts_per_page' => 5,
+                                            'orderby' => 'comment_count',
+                                            'order' => 'DESC',
+                                            'post__in' => get_option('sticky_posts')));
+
+    //$top_posts_query->query("&posts_per_page=5&orderby=comment_count&order=DESC");
+
 
     ?>
 
-    <h3> Posts on this page: </h3>
+    <h3> Top Posts: </h3>
     <?php if ( $top_posts_query->have_posts() ):
             while ( $top_posts_query->have_posts()):
                 $top_posts_query->the_post();
