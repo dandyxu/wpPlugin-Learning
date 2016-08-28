@@ -10,12 +10,18 @@
  */
 
 function top_posts_widget(){
+
+    //create a new Class from WP_Query()
+    $top_posts_query = new WP_Query();
+    //use get_posts() method in Class WP_Query
+    $top_posts_query->get_posts();
+
     ?>
 
     <h3> Posts on this page: </h3>
-    <?php if ( have_posts() ):
-            while ( have_posts()):
-                the_post();
+    <?php if ( $top_posts_query->have_posts() ):
+            while ( $top_posts_query->have_posts()):
+                $top_posts_query->the_post();
         ?>
                 <div>
                     <a href="<?php echo the_permalink(); ?>"
