@@ -37,7 +37,7 @@ function bdetector_insert_useragent(){
     $table_name = $wpdb->prefix . "DandyDetector";
 
     $wpdb->insert($table_name, array('user_agent'=>$_SERVER['HTTP_USER_AGENT']), array('%s'));
-    
+
 }
 
 add_action('wp_footer', 'bdetector_insert_useragent' );
